@@ -1,42 +1,48 @@
 {
-    "name": "milewski-jaroslaw/active-directory-authenticate",
-    "description": "CakePHP plugin for Active Directory authentication over LDAP.",
-    "type": "cakephp-plugin",
-    "keywords": ["cakephp", "authenticate", "ldap", "ad"],
-    "homepage": "http://github.com/milewski-jaroslaw/active-directory-authenticate",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Eric Lorentz",
-            "homepage": "http://ericlorentz.com",
-            "role": "Author"
-        },
-        {
-            "name": "Jarosław Milewski",
-            "homepage": "https://milewski.it",
-            "role": "Developer, bug eliminator"
-        }
-    ],
-    "require": {
-        "php": ">=5.5.0",
-        "cakephp/cakephp": "~3.0",
-        "adldap2/adldap2": "~6.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~5.3"
-    },
-    "support": {
-        "issues": "http://github.com/milewski-jaroslaw/active-directory-authenticate/issues",
-        "source": "http://github.com/milewski-jaroslaw/active-directory-authenticate"
-    },
-    "autoload": {
-        "psr-4": {
-            "ActiveDirectoryAuthenticate\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "ActiveDirectoryAuthenticate\\Test\\": "tests"
-        }
-    }
+	"name" : "MikeColeGuru/active-directory-authenticate-mock",
+	"description" : "CakePHP plugin for mock Active Directory authentication",
+	"type" : "cakephp-plugin",
+	"keywords" : [
+		"cakephp",
+		"authenticate",
+		"ldap",
+		"ad",
+		"mock"
+	],
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Eric Lorentz",
+			"homepage" : "http://ericlorentz.com",
+			"role" : "Author"
+		}, {
+			"name" : "Jarosław Milewski",
+			"homepage" : "https://milewski.it",
+			"role" : "Developer, bug eliminator"
+		}, {
+			"name" : "Mike Cole",
+			"role" : "Developer, bug eliminator"
+		}
+	],
+	"require" : {
+		"php" : ">=5.5.0",
+		"cakephp/cakephp" : "~3.0"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "~5.3"
+	},
+	"support" : {
+		"issues" : "http://github.com/MikeColeGuru/active-directory-authenticate-mock/issues",
+		"source" : "https://github.com/MikeColeGuru/active-directory-authenticate-mock"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"ActiveDirectoryAuthenticate\\" : "src"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"ActiveDirectoryAuthenticate\\Test\\" : "tests"
+		}
+	},
+	"minimum-stability" : "dev"
 }
