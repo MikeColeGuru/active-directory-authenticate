@@ -36,12 +36,12 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"ActiveDirectoryAuthenticate\\" : "src"
+			"ActiveDirectoryAuthenticateMock\\" : "src"
 		}
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"ActiveDirectoryAuthenticate\\Test\\" : "tests"
+			"ActiveDirectoryAuthenticateMock\\Test\\" : "tests"
 		}
 	},
 	"minimum-stability" : "dev"
