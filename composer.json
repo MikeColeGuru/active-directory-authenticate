@@ -1,5 +1,5 @@
 {
-	"name" : "MikeColeGuru/active-directory-authenticate-mock",
+	"name" : "dragonsguild/active-directory-authenticate-mock",
 	"description" : "CakePHP plugin for mock Active Directory authentication",
 	"type" : "cakephp-plugin",
 	"keywords" : [

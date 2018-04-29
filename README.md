@@ -7,7 +7,7 @@ Extends CakePHP's built-in authentication types to offer form mock Active Direct
 Install Active Directory Authentication by adding the following to your `composer.json` file:
 
     "require-dev": {
-        "MikeColeGuru/active-directory-authenticate-mock": "master"
+        "dragonsguild/active-directory-authenticate-mock": "master"
     }
 
 Run composer's update command to download the plugin.
