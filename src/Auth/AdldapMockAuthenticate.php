@@ -6,7 +6,7 @@ use Cake\Controller\ComponentRegistry;
 use Cake\Network\Request;
 use Cake\Network\Response;
 
-class AdldapAuthenticateMock extends FormAuthenticate
+class AdldapMockAuthenticate extends FormAuthenticate
 {
     /**
      * Constructor
