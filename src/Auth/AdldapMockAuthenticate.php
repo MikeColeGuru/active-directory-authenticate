@@ -23,7 +23,7 @@ class AdldapMockAuthenticate extends FormAuthenticate
     {
         $this->registry = $registry;
 
-        $this->config([
+        $this->setConfig([
             'config' => [],
             'ignored' => [
                 'distinguishedname',
@@ -33,7 +33,7 @@ class AdldapMockAuthenticate extends FormAuthenticate
             ],
             'select' => null
         ]);
-        $this->config($config, null, false);
+        $this->setConfig($config, null, false);
     }
 
     /**
@@ -61,7 +61,7 @@ class AdldapMockAuthenticate extends FormAuthenticate
      */
     public function findAdUser($username, $password)
     {
-    	$users = $this->config('users');
+    	$users = $this->getConfig('users');
 
     	foreach($users as $user) {
     		if ($user['samaccountname'] === $username && 
